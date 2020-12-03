@@ -9,7 +9,7 @@ pipeline {
         ECR_REGISTRY="${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com"
         APP_REPO_NAME = "clarusway-repo/phonebook-app"
         APP_NAME = "phonebook"
-        AWS_STACK_NAME = "Cengo-Phonebook-App-${BUILD_NUMBER}"
+        AWS_STACK_NAME = "Cengiz-Phonebook-App-${BUILD_NUMBER}"
         CFN_TEMPLATE="phonebook-docker-swarm-cfn-template.yml"
         CFN_KEYPAIR="cengo.pem"
         HOME_FOLDER = "/home/ec2-user"
